@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+   
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;  /* Ensures full height for #main */
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+
+#cursor {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute; /* Allows movement around the page */
+    top: 0;
+    left: 0;
+   
+}
+
+
+.image{
+    background-image: url(https://images.unsplash.com/photo-1530908295418-a12e326966ba?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 1000px;
+    background-position: center;
+}
+
+.left h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.left i{
+    cursor: pointer;
+    
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.full{
+    background-color:rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    height: 90vh;
+    width: 30vw;
+    position: absolute;
+    right: -40%;
+   
+    top: 2%;
+    
+    
+}
+
+.full h4{
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 10%;
+}
+
+
+.full i{
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    right: 0%;
+    top:2%;
+    cursor: pointer;
+    margin-right: 20px;
+}
